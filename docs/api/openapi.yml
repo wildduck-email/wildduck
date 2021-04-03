@@ -5176,8 +5176,6 @@ components:
                     type: string
                     description: IP address for the logs
         UpdateUserRequest:
-            required:
-                - disabledScopes
             type: object
             properties:
                 name:
@@ -5290,7 +5288,6 @@ components:
             required:
                 - username
                 - password
-                - disabledScopes
             type: object
             properties:
                 username:
