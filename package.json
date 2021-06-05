@@ -36,6 +36,8 @@
     },
     "dependencies": {
         "@phc/pbkdf2": "1.1.14",
+        "@types/node": "^14.0.14",
+        "@types/saslprep": "^1.0.0",
         "accesscontrol": "2.2.1",
         "argon2-browser": "1.15.4",
         "axios": "0.21.1",
